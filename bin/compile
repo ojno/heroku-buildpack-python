@@ -28,6 +28,9 @@ PROFILE_PATH="$BUILD_DIR/.profile.d/python.sh"
 DEFAULT_PYTHON_VERSION="python-2.7.3"
 PYTHON_EXE="/app/.heroku/python/bin/python"
 echo "The GIT_DIR was: ${GIT_DIR}"
+ls -l .git
+which git
+
 # Sanitizing environment variables.
 unset GIT_DIR PYTHONHOME PYTHONPATH LD_LIBRARY_PATH LIBRARY_PATH
 
